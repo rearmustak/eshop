@@ -13,11 +13,11 @@ const SingleProduct = ({ name, price, discount_price, image, hover_image }) => {
                     <div className="button-head">
                         <div className="product-action">
                             <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#">
-                                <i className=" ti-eye" />
+                                <i className="ti-eye" />
                                 <span>Quick Shop</span>
                             </a>
                             <a title="Wishlist" href="#">
-                                <i className=" ti-heart " />
+                                <i className="ti-heart " />
                                 <span>Add to Wishlist</span>
                             </a>
                             <a title="Compare" href="#">
